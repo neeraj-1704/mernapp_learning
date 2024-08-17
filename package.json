@@ -1,6 +1,21 @@
 {
+  "name": "youtubr-app",
+  "version": "1.0.0",
+  "description": "basic ecommerce app having basic implementation of the nodejs , Express js , Mongo DB , JWt , Scoket io and etc .....",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "instal": "^0.0.1-security"
+    "instal": "^0.0.1-security",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
